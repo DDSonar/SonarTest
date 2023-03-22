@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int x = 0;
+    int y = 1;
+    int z = 0;
+
+    if (x = y) {
+        printf("x equals y\n");
+    }
+
+    if (z > 100) {
+        printf("z is greater than 100\n");
+    }
+
+    char* s = "Hello, world!";
+    int i = 0;
+    while (s[i] != '\0') {
+        printf("%c", s[i++]);
+    }
+
+    char str[10];
+    printf("\nEnter a string: ");
+    gets(str);
+    printf("You entered: %s\n", str);
+
+    return 0;
+}
